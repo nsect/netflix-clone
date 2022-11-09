@@ -41,7 +41,7 @@
 }
 
 .loginScreen__body {
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     top: 30%;
     text-align: center;
@@ -50,6 +50,8 @@
     z-index: 1;
     color: white;
     padding: 20px;
+    left: 0;
+    right: 0;
 }
 
 .loginScreen__body > h1 {
