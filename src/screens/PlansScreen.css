@@ -1,15 +1,15 @@
-.plansScreen__plan {
+.planScreen__plan {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   opacity: 0.8;
 }
 
-.plansScreen__plan:hover {
+.planScreen__plan:hover {
   opacity: 1;
 }
 
-.plansScreen__plan > button {
+.planScreen__plan > button {
     padding: 10px 20px;
     font-size: 1rem;
     color: #fff;
@@ -18,4 +18,9 @@
     border: none;
     cursor: pointer;
 
+}
+
+.planScreen__plan--disabled > button {
+    background-color: #808080;
+    cursor: not-allowed;
 }
